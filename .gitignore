@@ -1,0 +1,10 @@
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Node dependencies (if any)
+node_modules/
+package-lock.json
+
+# Local env
+.env

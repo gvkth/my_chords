@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Không Tên Số 8 - Guitar Chords</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bài Không Tên Số 8</h1>
+        <div class="song-info">
+            <span><strong>Sáng tác:</strong> Vũ Thành An</span>
+            <span><strong>Điệu:</strong> Slow Rock / Boston</span>
+            <span><strong>Tông:</strong> A (La trưởng)</span>
+        </div>
+    </header>
+
+    <main>
+        <div id="chord-sheet" class="sheet-container">
+            <!-- Content will be injected by app.js -->
+            <div class="loading">Loading song data...</div>
+        </div>
+    </main>
+
+    <div class="controls">
+        <button class="control-btn" onclick="transpose(-1)">Key -1</button>
+        <button class="control-btn" onclick="transpose(1)">Key +1</button>
+        <button class="control-btn" onclick="toggleAutoScroll()">Auto Scroll</button>
+        <button class="control-btn" onclick="resetTranspose()">Reset Key</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
